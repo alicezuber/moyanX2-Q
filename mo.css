@@ -1,0 +1,33 @@
+.sidebar {
+    background-color: #f1f1f1;
+    height: 100%; /* 設定高度 */
+    position: fixed; /* 固定位置 */
+    top: 0; /* 距離頂部的位置 */
+    left: 0; /* 距離左側的位置 */
+    width: 200px; /* 設定寬度 */
+    overflow-x: hidden; /* 水平方向滾動條隱藏 */
+    padding-top: 20px; /* 上邊距 */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* 去除項目符號 */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px; /* 項目之間的距離 */
+  }
+  
+  .sidebar a {
+    display: block; /* 顯示為區塊 */
+    color: #000;
+    padding: 8px 16px; /* 上下左右的填充 */
+    text-decoration: none; /* 去除底線 */
+  }
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
